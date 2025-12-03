@@ -19,7 +19,6 @@ def main():
         model_deployment =  os.getenv("MODEL_DEPLOYMENT")
 
         # Initialize the project client
-        # Initialize the project client
         project_client = AIProjectClient(            
                 credential=DefaultAzureCredential(
                     exclude_environment_credential=True,
